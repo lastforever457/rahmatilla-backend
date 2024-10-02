@@ -6,7 +6,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
     .setTitle('Rahmatilla v3 API')
-    .setDescription('API uchun avtomatik yaratilgan hujjatlar')
+    .setDescription('API avtomatik yaratilgan hujjatlar')
     .setVersion('1.0')
     .build();
 
